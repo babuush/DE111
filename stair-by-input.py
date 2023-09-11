@@ -4,7 +4,6 @@ num = int(turtle.Screen().numinput("Insert number", "Steps"))
 length = int(turtle.Screen().numinput("Insert number", "Length of Steps"))
 turtle.shape("turtle")
 
-
 for i in range(num):
    turtle.fd(length)
    turtle.rt(90)
