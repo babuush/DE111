@@ -1,12 +1,12 @@
 import turtle
-sk = turtle.Turtle()
-# sk.shape("turtle")
-# num = int(turtle.Screen().numinput("Insert number", "Steps"))
-x = 20
-sk.speed(2)
-for i in range(5):
-    x+=20
-    for j in range(5):
-        sk.fd(x)
-        sk.lt(90)
+p1=turtle.Turtle()
+p1.speed(50)
+color_list = ['red', 'blue', 'green', 'orange']
+side_list = [50, 100, 150, 200]
+for i in range(len(color_list)):
+    p1.color(color_list[i])
+    side = side_list[i]
+    for _ in range(4):
+        p1.fd(side)
+        p1.rt(90)
 turtle.done()
