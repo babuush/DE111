@@ -3,7 +3,7 @@ sk=turtle.Turtle()
 sk.speed(50)
 sk.pensize(3)
 side = 4
-size = int(turtle.numinput('title', 'Polygon size'))
+size = int(turtle.numinput('title', 'Polygon size'))#should be more than 50
 color = ["brown", "green", "red"]
 for i in range(3):
 		sk.pencolor(color[i])	
