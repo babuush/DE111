@@ -8,5 +8,5 @@ for i in range(len(color_list)):
     side = side_list[i]
     for _ in range(4):
         p1.fd(side)
-        p1.rt(90)
+        p1.lt(90)
 turtle.done()
